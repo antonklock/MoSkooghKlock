@@ -2,4 +2,4 @@
 	export let buttonText: string;
 </script>
 
-<button>{buttonText}</button>
+<button class="bg-black text-white py-1 px-3 rounded-md">{buttonText}</button>
