@@ -1,13 +1,13 @@
 <script lang="ts">
-	import FacebookFeed from '../Components/FacebookFeed.svelte';
-	import MainButtons from '../Components/MainButtons.svelte';
-	import TestComponent from '../Components/TestComponent.svelte';
+	import MainButtons from '../components/MainButtons.svelte';
+	import TestComponent from '../components/TestComponent.svelte';
 
 	const name = 'MoSkooghKlock';
 </script>
 
-<div class="h-screen flex flex-col">
-	<h1 class="text-white font-sans text-5xl font-extrabold mt-20 ml-20">BERÄTTARNÄT</h1>
-	<FacebookFeed />
-	<!-- <MainButtons /> -->
+<div class="h-screen flex flex-col items-center">
+	<h1 class="text-white font-sans text-3xl font-bold mt-10">BERÄTTARNÄT</h1>
+
+	<MainButtons />
+	<h2 class="text-white font-sans text-xs font-thin mt-10">A site by Skoogh, Modin & Klock</h2>
 </div>
