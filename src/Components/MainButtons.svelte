@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import Button from './Button.svelte';
 	import { Rive } from '@rive-app/canvas';
 	import { onMount } from 'svelte';
 
@@ -28,6 +27,8 @@
 		createNewRive('/ColorF.riv', thirdCanvas, true);
 	});
 </script>
+
+<div />
 
 <div class="flex flex-col flex-grow justify-center w-screen ">
 	<div class="h-1/2 flex justify-center">
