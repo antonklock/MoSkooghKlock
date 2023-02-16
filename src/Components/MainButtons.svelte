@@ -23,7 +23,7 @@
 
 	onMount(() => {
 		createNewRive('/ColorF.riv', firstCanvas, true);
-		createNewRive('/ColorF.riv', secondCanvas, true);
+		createNewRive('/Blob01.riv', secondCanvas, true);
 		createNewRive('/ColorF.riv', thirdCanvas, true);
 	});
 </script>
